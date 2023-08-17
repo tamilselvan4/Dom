@@ -1,0 +1,171 @@
+h1,h2,h3,p {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    padding-bottom: 20px;
+}
+
+.welcome-text {
+    padding-bottom: 30px;
+}
+
+.get-input-div {
+    margin-left: 50px;
+}
+
+.img-div {
+    background-color: rgb(244, 242, 246);
+    display: flex;
+    flex: 1;
+    object-fit: cover;
+}
+
+.login-img {
+    width: 550px;
+}
+
+.welcome-heading {
+    margin: 0px;
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.Welcome-heading-text {
+    margin-top: 6px;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+
+.label-input {
+    font-size: 20px;
+    color: rgb(47, 47, 47);
+}
+
+.input-text, .input-text-pass {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(160, 160, 160);
+    transition: background-color 0.2s, border-width 0s;
+}
+
+.input-text-pass {
+    font-weight: 800;
+}
+
+#input:hover {
+    padding: 10px;
+    border-width: 1.5px;
+}
+
+.remember-me-div {
+    display: flex;
+    flex-direction: row;
+    width: 400px; 
+    margin-bottom: 15px;
+}
+
+.remember-me, .forgot-password {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forgot-password {
+    position:relative; left:90px;
+}
+
+.button-sign-in {
+    margin-top: 15px;
+    color: white;
+    width: 300px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 6px;
+    padding: 3px;
+    height: 35px;
+    width: 300px;
+    margin: 5px;
+    font-size: small;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.2s, border-width 0s;
+}
+
+.button-sign-in:hover {
+
+    background-color: white;
+    color: blueviolet;
+    border-style: solid;
+    border-color: blueviolet;
+    height: 35px;
+    border-width: 1px;
+}
+
+.button-google {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin: 5px;
+    font-size: small;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: rgb(160, 160, 160);
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: background-color 1s, border-width 0.1s;
+}
+
+.button-google:hover {
+    border-width: 1.5px;
+}
+
+.google-logo {
+    padding-left: 8px;
+    vertical-align: middle;
+    height: 20px;
+}
+
+.dont-text {
+    font-size: x-small;
+    color: rgb(79, 79, 79);
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.link-sign-up {
+    font-size: 10px;
+    text-decoration: none;
+}
