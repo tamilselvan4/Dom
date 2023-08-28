@@ -85,7 +85,7 @@ getInputDiv.appendChild(button2);
 
 googleImg=document.createElement('img');
 googleImg.className="google-logo";
-googleImg.src="google.png";
+googleImg.src="img/google.png";
 button2.appendChild(googleImg);
 
 para2=document.createElement('p');
@@ -104,6 +104,6 @@ mainDiv.appendChild(imgDiv);
 
 loginImg=document.createElement('img');
 loginImg.className="login-img";
-loginImg.src="login_img.png";
+loginImg.src="img/login_img.png";
 imgDiv.appendChild(loginImg);
 
